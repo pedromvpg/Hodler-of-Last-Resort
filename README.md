@@ -51,13 +51,16 @@ Players start with 1 mining die and can purchase up to 5 mining dice throughout 
 	7. If player X engages, they throw the white die again and compare the result with the rules on the space. If positive they get bitcoin form the other players, if negative they need to give bitcoin to all the other players.
 8. At this point, another player can play a card and change the outcome of the space. The player next to the current player (clock-wise) is the first one to have the option to apply a card and can pass. It goes around the board if the current player can apply one of its own cards to override everyone else's. All cards that are played go back to their decks. Only the last one to be played has any effect. 
 
-The vision:
 
+
+The vision:
 
 ![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTopLid2880X1800_0003-1536x960.jpg)
 
 ![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTop2880X1800_0066-1536x960.jpg)
 
 ![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTop2880X1800_0066-1536x960.jpg)
+
+![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTopLid2880X1800_0003-1536x960.jpg)
 
 
