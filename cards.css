@@ -1,0 +1,256 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html,
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: Ã¢â‚¬â„¢Ã¢â‚¬â„¢;
+  content: none;
+}
+
+/* remember to define visible focus styles!
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Theme Colors */
+
+.bitcoin .card-front {  background-color: #F5AA00;}
+.heuristics .card-front { background-color: #000000}
+.bitcoin-improvement .card-front {  background-color: #7B7B7B}
+.hodling .card-front {  background-color: #00B43E}
+.dirty-fiat .card-front {  background-color: #1236CE}
+.network-attacks .card-front {  background-color: #E010D0}
+.exchange-attacks .card-front {  background-color: #FF0000}
+
+body {
+  background: #fff;
+}
+
+.card {
+  display: inline-block;
+}
+
+.card-back,
+.card-front {
+  width: 200px;
+  height: 295px;
+  display: block;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 12px;
+  /* padding: 16px; */
+}
+
+.card-back {
+  background: #fff;
+  position: relative;
+  border: 1px #dadada solid;
+}
+
+.card-front {
+  color: #FFF;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.card-category {
+  position: relative;
+  top: 50%;
+  margin-top: -18px;
+  transform: rotate(90deg);
+  font-size: 150%;
+}
+
+.card-back .title {
+  text-align: center;
+  font-weight: 800;
+  padding: 20px;
+}
+
+.card-back .card-id {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #929292;
+  font-size: 40%;
+}
+
+.card-back .description {
+  top: 100px;
+  position: absolute;
+  padding: 20px;
+  font-size: 70%;
+  line-height: 1.5em;
+}
+
+
+
+
+
+#buttons {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.button {
+  float: left;
+  margin: 0px 20px 0 0;
+  padding: 10px 20px 8px 20px;
+  background: #f5f5f5;
+  border-radius: 30px;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #eaeaea;
+}

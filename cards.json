@@ -1,0 +1,31 @@
+ var cards = [{
+     "title": "Exchange Owner",
+     "description": "Use this card to change the effect of someone else's bet on a Fiat vs. Bitcoin (Blue) space to neutral. Return to the deck after use.",
+     "theme": "Bitcoin Improvement"
+   },
+   {
+     "title": "Practice now what you need later.",
+     "description": "Use this card to change the effect of a Heristics (black) to neutral on your benefit. Return to the deck after use.",
+     "theme": "Heuristics"
+   },
+   {
+     "title": "Title of card",
+     "description": "Description of card",
+     "theme": "Hodling"
+   },
+   {
+     "title": "Title of card",
+     "description": "Description of card",
+     "theme": "Dirty Fiat"
+   },
+   {
+     "title": "Title of card",
+     "description": "Description of card",
+     "theme": "Network Attacks"
+   },
+   {
+     "title": "Title of card",
+     "description": "Description of card",
+     "theme": "Exchange Attacks"
+   },
+ ]

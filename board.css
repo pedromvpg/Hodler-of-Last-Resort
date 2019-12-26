@@ -1,0 +1,239 @@
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html, body { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+
+
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:Ã¢â‚¬â„¢Ã¢â‚¬â„¢;
+    content:none;
+}
+/* remember to define visible focus styles!
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+/* Theme Colors */
+
+
+
+.bitcoin  {  background-color: #F5AA00;}
+.heuristics  { background-color: #000000}
+.bitcoin-improvement  {  background-color: #7B7B7B}
+.hodling  {  background-color: #00B43E}
+.dirty-fiat  {  background-color: #1236CE}
+.network-attacks  {  background-color: #E010D0}
+.exchange-attacks  {  background-color: #FF0000}
+
+
+
+body{
+  background: black;
+}
+
+
+#board-outer{
+  padding: 70px;
+  border: 1px solid #dcdcdc;
+  position: absolute;
+  margin: 90px;
+  background: #fff;
+  zoom: 25%;
+}
+
+
+
+#board{
+  position: relative;
+  /* left: 10px; */
+  /* top: 10px; */
+  /* margin: 30px; */
+  background:url('images/background@2x.png');
+  background-size: cover;
+}
+
+
+
+.row {
+  position: absolute;
+}
+
+
+.row-1{
+  display: flex;
+  left: 0px;
+  top: 0px;
+}
+
+.row-2{
+  right: 0px;
+  top: 0px;
+}
+
+.row-3{
+  display: flex;
+  right: 0px;
+  bottom: 0px;
+  transform: rotate(180deg);
+}
+
+.row-4{
+  left: 0px;
+  bottom: 0px;
+  transform: rotate(180deg);
+}
+
+.row-1 .space {
+    transform: rotate(180deg);
+}
+
+.row-2 .space{
+    transform: rotate(270deg);
+}
+
+.row-3 .space {
+    transform: rotate(180deg);
+}
+
+.row-4 .space {
+    transform: rotate(-450deg);
+}
+
+
+
+
+
+
+
+.space{
+  color: #fff;
+  border-left: none;
+}
+
+.space-inner {
+    padding: 3rem;
+}
+
+.space .color-top {
+  width: 100%;
+  height: 0px;
+  font-size:0;
+}
+
+.space .title {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-weight:bold;
+  letter-spacing: 0.04em;
+}
+
+
+.space .description {
+  letter-spacing: 0.04em;
+}
+
+.space-id {
+    position: absolute;
+    bottom: 50px;
+    font-size: 160px;
+    font-weight:bold;
+    opacity:0.2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#buttons{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.button {
+  float: left;
+  margin: 0px 20px 0 0;
+  padding: 10px 20px 8px 20px;
+  background: #f5f5f5;
+  border-radius: 30px;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: #eaeaea;
+}
+
+.debug .row-1 .space,
+.debug .row-2 .space{
+    transform: rotate(0deg);
+    border-left: 1px #ececec solid;
+}
+.debug .row-3 .space,
+.debug .row-4 .space {
+    transform: rotate(180deg);
+    border-left: 1px #ececec solid;
+}

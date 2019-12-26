@@ -1,0 +1,260 @@
+ var spaces = [
+        {
+            "title": "Genesis Block",
+            "description": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.<br>Block reward starts at 50.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin"
+        },
+        {
+            "title": "Run a Node",
+            "description": "Verified transaction on your own node prevented phishing attacks on block explorers.<br>Get 1 free pass from network attacks.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" :  "Heuristics"
+        },
+        {
+            "title": "#StackingSats",
+            "description": "Every Saturday you've been stacking satoshis.<br>Get 1% of everyone else Bitcoin.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Hodling"
+        },
+        {
+            "title": "UASF",
+            "description": "TK Lorem Ipsum",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Negative Interest Rates",
+            "description": "Foreseed NIR and were able to start dollar cost averaging  a Bitcoin purchases early on.<br>Get a Purchasing Boost card.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Dirty Fiat"
+        },
+        {
+            "title": "Laptop Hack",
+            "description": "Laptop stolen and no back up. Bitcoin lost.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Network Attacks"
+        },
+        {
+            "title": "Stolen Identity",
+            "description": "Your 2FAuth was compromised and hackers stole your Bitcoin.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Exchange Attacks"
+        },
+        {
+            "title": "SegWit",
+            "description": "Saving on transactions and developing the network.<br>Get 1 knowledge card",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Difficulty Adjustment",
+            "description": "Get the extra dice for mining faster. (not very related… come up with something better)",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin"
+        },
+        {
+            "title": "Mempool Empty",
+            "description": "Timed your onchain TXs well.<br>Reward ????",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" :  "Heuristics"
+        },
+        {
+            "title": "#StackingSats",
+            "description": "Every Saturday you've been stacking satoshis.<br>Get 1% of everyone else Bitcoin.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Hodling"
+        },
+        {
+            "title": "UASF",
+            "description": "TK Lorem Ipsum",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Negative Interest Rates",
+            "description": "Foreseed NIR and were able to start dollar cost averaging  a Bitcoin purchases early on.<br>Get a Purchasing Boost card.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Dirty Fiat"
+        },
+        {
+            "title": "Laptop Hack",
+            "description": "Laptop stolen and no back up. Bitcoin lost.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Network Attacks"
+        },
+        {
+            "title": "Stolen Identity",
+            "description": "Your 2FAuth was compromised and hackers stole your Bitcoin.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Exchange Attacks"
+        },
+        {
+            "title": "SegWit",
+            "description": "Saving on transactions and developing the network.<br>Get 1 knowledge card",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Difficulty Adjustment",
+            "description": "Get the extra dice for mining faster. (not very related… come up with something better)",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin"
+        },
+        {
+            "title": "Mempool Empty",
+            "description": "Timed your onchain TXs well.<br>Reward ????",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" :  "Heuristics"
+        },
+        {
+            "title": "#StackingSats",
+            "description": "Every Saturday you've been stacking satoshis.<br>Get 1% of everyone else Bitcoin.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Hodling"
+        },
+        {
+            "title": "UASF",
+            "description": "TK Lorem Ipsum",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Negative Interest Rates",
+            "description": "Foreseed NIR and were able to start dollar cost averaging  a Bitcoin purchases early on.<br>Get a Purchasing Boost card.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Dirty Fiat"
+        },
+        {
+            "title": "Laptop Hack",
+            "description": "Laptop stolen and no back up. Bitcoin lost.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Network Attacks"
+        },
+        {
+            "title": "Stolen Identity",
+            "description": "Your 2FAuth was compromised and hackers stole your Bitcoin.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Exchange Attacks"
+        },
+        {
+            "title": "SegWit",
+            "description": "Saving on transactions and developing the network.<br>Get 1 knowledge card",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Difficulty Adjustment",
+            "description": "Get the extra dice for mining faster. (not very related… come up with something better)",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin"
+        },
+        {
+            "title": "Mempool Empty",
+            "description": "Timed your onchain TXs well.<br>Reward ????",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" :  "Heuristics"
+        },
+        {
+            "title": "#StackingSats",
+            "description": "Every Saturday you've been stacking satoshis.<br>Get 1% of everyone else Bitcoin.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Hodling"
+        },
+        {
+            "title": "UASF",
+            "description": "TK Lorem Ipsum",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+        {
+            "title": "Negative Interest Rates",
+            "description": "Foreseed NIR and were able to start dollar cost averaging  a Bitcoin purchases early on.<br>Get a Purchasing Boost card.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Dirty Fiat"
+        },
+        {
+            "title": "Laptop Hack",
+            "description": "Laptop stolen and no back up. Bitcoin lost.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Network Attacks"
+        },
+        {
+            "title": "Stolen Identity",
+            "description": "Your 2FAuth was compromised and hackers stole your Bitcoin.<br>Give 1% of your BTC to everyone.",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Exchange Attacks"
+        },
+        {
+            "title": "SegWit",
+            "description": "Saving on transactions and developing the network.<br>Get 1 knowledge card",
+            "negative" : -10,
+            "neutral" : 0,
+            "positive" : 10,
+            "theme" : "Bitcoin Improvement"
+        },
+
+
+]
