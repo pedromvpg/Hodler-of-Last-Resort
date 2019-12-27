@@ -21,7 +21,7 @@ https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resor
 
 
 ### cards.html
-Same principle of board.html but for the cards. Content of the cards on cards.json. After the outcome of the player is known, other users can choose to use on of the cards they accumulated to alter, reverse, or amplify the result or consequence of the space.
+Same principle of board.html but for the cards. Content of the cards on cards.json. Player can choose to buy a card of the respective color of the space they landed on. After the outcome of the player is known, other users can choose to use on of the cards they accumulated to alter, reverse, or amplify the result or consequence of the space.
 
 - [ ] write card rules in cards.json
 - [ ] confirm cards do not extend the game time too much
@@ -48,7 +48,7 @@ Players start with 1 mining die and can purchase up to 5 mining dice throughout 
 ### Order of play
 0. All players start with 0 bitcoin and only 1 mining die (color matching user's figure).
 1. Player X rolls the white die.
-2. Player X moves piece to the space forward the number on the white die. If they land on a orange space, they can take a card from one of the decks (random? player free to select, roll a special 6 face color die to select theme?)
+2. Player X moves piece to the space forward the number on the white die. The player can choose to buy a card which can be played in this round.
 3. All players roll mining dice. 
 4. Lowest number wines the block reward. If a tie, keep rolling until there's a clear winner. Only the smallest number on the mining dice counts.
 5. Player X chooses to engage or not engage with the space it has landed on.
