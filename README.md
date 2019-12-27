@@ -58,7 +58,7 @@ Players start with 1 mining die and can purchase up to 5 mining dice throughout 
 
 
 
-A visialization
+### A visialization
 
 ![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTopLid2880X1800_0003-1536x960.jpg)
 
