@@ -64,8 +64,8 @@ The vision:
 
 ![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTop2880X1800_0066-1536x960.jpg)
 
-![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTop2880X1800_0066-1536x960.jpg)
+![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTopLid_AngleTele2880X1800_0003-1536x960.jpg)
 
-![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTopLid2880X1800_0003-1536x960.jpg)
+![Boardgame](https://piratehash.com/wp-content/uploads/2019/12/Bitcoin_Board_Game_6_categoriesTele2880X1800_0037-1536x960.jpg)
 
 
