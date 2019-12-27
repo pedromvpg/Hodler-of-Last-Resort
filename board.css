@@ -180,21 +180,44 @@ body{
   font-size: 60px;
   margin-bottom: 30px;
   font-weight:bold;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 
 
-.space .description {
-  letter-spacing: 0.04em;
+
+
+#board .row-1 .bitcoin:first-child {
+  font-weight:bold;
+  color: #F5AA00;
+  background-color: #FFF;
+  border: 10px solid #F5AA00;
 }
+
+#board .row-1 .bitcoin:first-child  .space-inner {
+    padding: 2rem;
+}
+
+
+.space {
+  letter-spacing: 0.06em;
+}
+
+
+
+.space .roll-description {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
 
 .space-id {
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     font-size: 160px;
     font-weight:bold;
     opacity:0.2
 }
+
 
 
 

@@ -9,7 +9,7 @@ $(document).ready(function(e) {
 
   $.each(spaces, function(key, value) {
 
-    if(key%8 == 0){
+    if(key%7== 0){
 
       console.log('open');
       console.log(value.title);
@@ -17,7 +17,7 @@ $(document).ready(function(e) {
       open_row = '<div class="row row-'+row_id+'">';
       close_row = '';
 
-    }else if(key%8 == 7){
+    }else if(key%7 == 6){
       console.log('close');
       open_row = '';
       close_row = '</div>';
@@ -33,6 +33,7 @@ $(document).ready(function(e) {
       space += '<div class="space-inner">';
         space += '<div class="title">'+value.title+'</div>';
         space += '<div class="description">'+value.description+'</div>';
+        space += '<div class="roll-description">'+value.rollDescription+'</div>';
         space += '<div class="space-id">'+key+'</div>';
       space += '</div>';
     space += '</div>';
@@ -47,7 +48,7 @@ $(document).ready(function(e) {
 
 
   var space_side = 600;
-  var spaces_per_row = 8;
+  var spaces_per_row = 7;
   var board_side = space_side*(spaces_per_row+1);
 
 
