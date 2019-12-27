@@ -14,7 +14,10 @@ The board is made up of 32 spaces. On each corner, there are 4 spaces where the 
 An example: if the player chooses to engage with a blue space and roles a number below the specified in the space, the outcome is negative and they need to give up some of their funds).
 
 This file should be used to construct a printable PDF with the game board. All spaces data and rules are pulled from the spaces.json and laid out in the board layout on the html using simple javascript and css. 
-TODO: write rules, descriptions, and titles, for each space
+
+- [ ] write rules, descriptions, and titles, for each space
+
+https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resort/blob/master/board.html
 
 
 ## cards.html
@@ -23,6 +26,7 @@ Same principle of board.html but for the cards. Content of the cards on cards.js
 - [ ] write card rules in cards.json
 - [ ] confirm cards do not extend the 
 
+https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resort/blob/master/cards.html
 
 ## ledger.html
 Miner subsidies, transfers of bitcoin on each round, and any other events for each turn, are recorded on a ledger that accompanies the gameplay. Think of it as the monopoly bank, but instead of distributing the paper currency, it just makes sure that all data is recorded as the game progresses. 
@@ -32,6 +36,7 @@ Best if visible to everybody during the game as it should serve as an analogy to
 - [ ] Workout the math and make sure it's tracking all the rewards and transfers correctly
 - [ ] Ability to same the game in a url ?gameId=7xD29dkAq574v0paf4d in case the browsers refreshes or crashes
 
+https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resort/blob/master/ledger.html
 
 ## Mining
 Players start with 1 mining die and can purchase up to 5 mining dice throughout the game. More dice means bigger chances of getting a small number and taking the block reward. 
