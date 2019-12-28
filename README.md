@@ -21,10 +21,12 @@ https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resor
 
 
 ### cards.html
-Same principle of board.html but for the cards. Content of the cards on cards.json. Player can choose to buy a card of the respective color of the space they landed on. After the outcome of the player is known, other users can choose to use on of the cards they accumulated to alter, reverse, or amplify the result or consequence of the space.
+Same principle of board.html but for the cards. Content of the cards on cards.json. Player can choose to buy a card of the respective color/theme of the space they landed on. After the outcome of the player is known, other users can choose to use on of the cards they accumulated to alter, reverse, or amplify the result or consequence of the space.
 
-- [ ] write card rules in cards.json
-- [ ] confirm cards do not extend the game time too much
+- [ ] Should all cards be the same price?
+- [ ] Should users be able to use the freshly purchased card on their own turn? Currently not possible as all cards have effect mapped to another color/theme.
+- [ ] Write card rules in cards.json
+- [ ] Confirm cards do not extend the game time too much
 
 https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resort/blob/master/cards.html
 
