@@ -167,7 +167,7 @@ body{
 }
 
 .space-inner {
-    padding: 3rem;
+    padding: 40px;
 }
 
 .space .color-top {
@@ -193,8 +193,8 @@ body{
   border: 10px solid #F5AA00;
 }
 
-#board .row-1 .bitcoin:first-child  .space-inner {
-    padding: 2rem;
+#board .row-1 .bitcoin:first-child .space-inner {
+    padding: 30px;
 }
 
 
