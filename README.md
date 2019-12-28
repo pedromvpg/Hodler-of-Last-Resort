@@ -36,7 +36,9 @@ Miner subsidies, transfers of bitcoin on each round, and any other events for ea
 Best if visible to everybody during the game as it should serve as an analogy to Bitcoin's open blockchain. Once one round is finished, it should be impossible to change the values.
 
 - [ ] Workout the math and make sure it's tracking all the rewards and transfers correctly
-- [ ] Ability to same the game in a url ?gameId=7xD29dkAq574v0paf4d in case the browsers refreshes or crashes
+- [ ] Show balance change for each row
+- [ ] Possible to implement some kind of local auto-save feature that updates a json with the outcome of each row?
+- [ ] Ability to save the game in a url ?gameId=7xD29dkAq574v0paf4d in case the browsers refreshes or crashes
 
 https://htmlpreview.github.io/?https://github.com/pedromvpg/Hodler-of-Last-Resort/blob/master/ledger.html
 

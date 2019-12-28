@@ -65,10 +65,19 @@ $(document).ready(function(e) {
 
 
 
-
-  var player_balances = '<div class="cell player-balances-container">';
+  var player_balances = '';
+  
+  //still need to customize this loop to show only the change in balance.
+  player_balances += '<div class="cell player-balances-container change">';
   for (i = 0; i < players_total; i++) {
-    player_balances += '<div class="cell player-balance player-balance-'+i+'" data-player-name="'+players[i].name+'"> - </div>';
+    player_balances += '<div class="cell player-balance player-balance-'+i+'" data-player-name="'+players[i].name+' Change"> - </div>';
+  }
+  player_balances += '</div>';
+  
+  
+  player_balances += '<div class="cell player-balances-container totals">';
+  for (i = 0; i < players_total; i++) {
+    player_balances += '<div class="cell player-balance player-balance-'+i+'" data-player-name="'+players[i].name+' Total"> - </div>';
   }
   player_balances += '</div>';
 
@@ -150,7 +159,7 @@ $(document).ready(function(e) {
         play += '<div class="cell player-reward" data="'+player_reward+'">'+player_reward_formated+'</div>';
         play += '<div class="cell halving">'+halving+'</div>';
         play += '<div class="cell player-miner">'+miner_select+'</div>';
-        play += '<div class="cell player-turn" data="'+(i-1)%players_total+'">'+players[(i-1)%players_total].name+'</div>';
+        play += '<div class="cell player-turn" data="'+(i-1)%players_total+'">'+players[(i-1)%players_total].name+'<br><input type="checkbox" name="card-buy" value="1"> Card Buy</div>';
         play += '<div class="cell space"><input class="space-input" type="text" name="space" disabled></div>';
         play += '<div class="cell outcome">'+outcome_select+'</div>';
       play += '</div>';  

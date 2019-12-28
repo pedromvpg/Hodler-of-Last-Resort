@@ -138,7 +138,7 @@
    /*
    
    
-    /*
+   /*
    * ------------------------------------------------
    *
    *     SET 3 (1 per category) change to positive
@@ -154,8 +154,8 @@
      "price": 2000000,
    },
    {
-     "title": "ASICs 1 of 3",
-      "description": "Get a free miner die.",
+     "title": "Placeholder",
+     "description": "Lorem ipsum text",
      "influence": {"themeEffected": "Network Attacks", "effect": "positive", "description": "Make any Network Attacks positive",},
      "theme": "Heuristics",
      "price": 2500000,
@@ -168,8 +168,8 @@
      "price": 3000000,
    },
    {
-     "title": "Placeholder",
-     "description": "Description of card",
+     "title": "Fiat Debt",
+     "description": "The debt you had denominated in fiat has lost all its value.",
      "influence": {"themeEffected": "Heuristics", "effect": "positive", "description": "Make any Heuristics positive",},
      "theme": "Dirty Fiat",
      "price": 4500000,
@@ -185,6 +185,58 @@
      "title": "Placeholder",
      "description": "Lorem ipsum text",
      "influence": {"themeEffected": "Dirty Fiat", "effect": "positive", "description": "Make any Dirty Fiat positive",},
+     "theme": "Exchange Attacks",
+     "price": 1000000,
+   },
+   
+   
+   
+   
+   
+   
+   
+   
+   /*
+   * ------------------------------------------------
+   *
+   *     SET 4 (3 per category) miner cards
+   *
+   * ------------------------------------------------
+   */
+
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
+     "theme": "Bitcoin Improvement",
+     "price": 2000000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
+     "theme": "Heuristics",
+     "price": 2500000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
+     "theme": "Hodling",
+     "price": 3000000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
+     "theme": "Dirty Fiat",
+     "price": 4500000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
+     "theme": "Network Attacks",
+     "price": 1000000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+     "description": "Collect 3 and get a free miner die.",
      "theme": "Exchange Attacks",
      "price": 1000000,
    },
