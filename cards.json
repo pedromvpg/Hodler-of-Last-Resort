@@ -1,31 +1,197 @@
- var cards = [{
+ var cards = [
+   
+   
+   
+   /*
+   * ------------------------------------------------
+   *
+   *     SET 1 (1 per category) change to negative
+   *
+   * ------------------------------------------------
+   */
+
+   {
+     "title": "Too Early",
+     "description": "Misleading narrative is propagated about the true purpose of your version of Bitcoin.",
+     "influence": {"themeEffected": "Exchange Attacks", "effect": "negative", "description": "Make any Exchange Attacks negative",},
+     "theme": "Bitcoin Improvement",
+     "price": 2000000,
+   },
+   {
+     "title": "Keep it Simple, Stupid",
+     "description": "Overlly complicated private key habbits lead you to loose part of your bitcoin.",
+     "influence": {"themeEffected": "Network Attacks", "effect": "negative", "description": "Make any Network Attacks negative",},
+     "theme": "Heuristics",
+     "price": 2500000,
+   },
+   {
+     "title": "Donation dependencies",
+     "description": "Everyone wants to hodl and no one is donating to developers.",
+     "influence": {"themeEffected": "Bitcoin Improvement", "effect": "negative", "description": "Make any Bitcoin Improvement negative",},
+     "theme": "Hodling",
+     "price": 3000000,
+   },
+   {
+     "title": "Consume",
+     "description": "The fiat mentallity and hight time preference have clouded your focus.",
+     "influence": {"themeEffected": "Heuristics", "effect": "negative", "description": "Make any Heuristics negative",},
+     "theme": "Dirty Fiat",
+     "price": 4500000,
+   },
+   {
      "title": "Exchange Owner",
-     "description": "Use this card to change the effect of someone else's bet on a Fiat vs. Bitcoin (Blue) space to neutral. Return to the deck after use.",
-     "theme": "Bitcoin Improvement"
+     "description": "PR nightmares and compliance overhead.",
+     "influence": {"themeEffected": "Hodling", "effect": "negative", "description": "Make any Hodling negative",},
+     "theme": "Network Attacks",
+     "price": 1000000,
    },
    {
-     "title": "Practice now what you need later.",
-     "description": "Use this card to change the effect of a Heristics (black) to neutral on your benefit. Return to the deck after use.",
-     "theme": "Heuristics"
+     "title": "New Regulation",
+     "description": "Unexpected new regulation is passed impacting buisness directly in your juristiction.",
+     "influence": {"themeEffected": "Dirty Fiat", "effect": "negative", "description": "Make any Dirty Fiat negative",},
+     "theme": "Exchange Attacks",
+     "price": 1000000,
    },
+   
+   
+   
+   
+   
+   /*
+   * ------------------------------------------------
+   *
+   *     SET 2 (1 per category) change to neutral
+   *
+   * ------------------------------------------------
+   */
+
    {
-     "title": "Title of card",
+     "title": "Deterministic scriptSig",
      "description": "Description of card",
-     "theme": "Hodling"
+     "influence": {"themeEffected": "Exchange Attacks", "effect": "neutral", "description": "Make any Exchange Attacks neutral",},
+     "theme": "Bitcoin Improvement",
+     "price": 2000000,
    },
    {
-     "title": "Title of card",
-     "description": "Description of card",
-     "theme": "Dirty Fiat"
+     "title": "Cold Storage",
+     "description": "You've been keeping your private kyes cool.",
+     "influence": {"themeEffected": "Network Attacks", "effect": "neutral", "description": "Make any Network Attacks neutral",},
+     "theme": "Heuristics",
+     "price": 1500000,
    },
    {
-     "title": "Title of card",
+     "title": "Placeholder",
      "description": "Description of card",
-     "theme": "Network Attacks"
+     "influence": {"themeEffected": "Bitcoin Improvement", "effect": "neutral", "description": "Make any Bitcoin Improvement neutral",},
+     "theme": "Hodling",
+     "price": 3000000,
    },
    {
-     "title": "Title of card",
+     "title": "Placeholder",
      "description": "Description of card",
-     "theme": "Exchange Attacks"
+     "influence": {"themeEffected": "Heuristics", "effect": "neutral", "description": "Make any Heuristics neutral",},
+     "theme": "Dirty Fiat",
+     "price": 4500000,
    },
+   {
+     "title": "Transaction Malleability",
+     "description": "Description of card",
+     "influence": {"themeEffected": "Hodling", "effect": "neutral", "description": "Make any Hodling neutral",},
+     "theme": "Network Attacks",
+     "price": 1000000,
+   },
+   {
+     "title": "KYC",
+     "description": "Description of card",
+     "influence": {"themeEffected": "Dirty Fiat", "effect": "neutral", "description": "Make any Dirty Fiat neutral",},
+     "theme": "Exchange Attacks",
+     "price": 1000000,
+   },
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   /*
+   
+   
+        "title": "Holding Too Much Debt",
+     "description": "Oweing to much prevented you from hodling",
+   
+   /*
+   
+   
+    /*
+   * ------------------------------------------------
+   *
+   *     SET 3 (1 per category) change to positive
+   *
+   * ------------------------------------------------
+   */
+
+   {
+     "title": "Placeholder",
+     "description": "Lorem ipsum text",
+     "influence": {"themeEffected": "Exchange Attacks", "effect": "positive", "description": "Make any Exchange Attacks positive",},
+     "theme": "Bitcoin Improvement",
+     "price": 2000000,
+   },
+   {
+     "title": "ASICs 1 of 3",
+      "description": "Get a free miner die.",
+     "influence": {"themeEffected": "Network Attacks", "effect": "positive", "description": "Make any Network Attacks positive",},
+     "theme": "Heuristics",
+     "price": 2500000,
+   },
+   {
+     "title": "Placeholder",
+     "description": "Lorem ipsum text",
+     "influence": {"themeEffected": "Bitcoin Improvement", "effect": "positive", "description": "Make any Bitcoin Improvement positive",},
+     "theme": "Hodling",
+     "price": 3000000,
+   },
+   {
+     "title": "Placeholder",
+     "description": "Description of card",
+     "influence": {"themeEffected": "Heuristics", "effect": "positive", "description": "Make any Heuristics positive",},
+     "theme": "Dirty Fiat",
+     "price": 4500000,
+   },
+   {
+     "title": "Placeholder",
+     "description": "Lorem ipsum text",
+     "influence": {"themeEffected": "Hodling", "effect": "positive", "description": "Make any Hodling positive",},
+     "theme": "Network Attacks",
+     "price": 1000000,
+   },
+   {
+     "title": "Placeholder",
+     "description": "Lorem ipsum text",
+     "influence": {"themeEffected": "Dirty Fiat", "effect": "positive", "description": "Make any Dirty Fiat positive",},
+     "theme": "Exchange Attacks",
+     "price": 1000000,
+   },
+   
+   
+   
+   
+   
+   
  ]

@@ -131,7 +131,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: Ã¢â‚¬â„¢Ã¢â‚¬â„¢;
+  content: ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢;
   content: none;
 }
 
@@ -161,13 +161,23 @@ table {
 
 /* Theme Colors */
 
-.bitcoin .card-front {  background-color: #F5AA00;}
-.heuristics .card-front { background-color: #000000}
-.bitcoin-improvement .card-front {  background-color: #7B7B7B}
-.hodling .card-front {  background-color: #00B43E}
-.dirty-fiat .card-front {  background-color: #1236CE}
-.network-attacks .card-front {  background-color: #E010D0}
-.exchange-attacks .card-front {  background-color: #FF0000}
+.bitcoin_back {  background-color: #F5AA00;}
+.heuristics_back {background-color: #000000;color: #fff;}
+.bitcoin-improvement_back {  background-color: #7B7B7B}
+.hodling_back {  background-color: #00B43E}
+.dirty-fiat_back {  background-color: #1236CE}
+.network-attacks_back {  background-color: #E010D0}
+.exchange-attacks_back {  background-color: #FF0000}
+
+
+
+.bitcoin_color {color: #000; }
+.heuristics_color {color: #000; }
+.bitcoin-improvement_color {color: #7B7B7B; }
+.hodling_color {color: #00B43E; }
+.dirty-fiat_color {color: #1236CE; }
+.network-attacks_color {color: #E010D0; }
+.exchange-attacks_color {color: #FF0000; }
 
 body {
   background: #fff;
@@ -175,6 +185,7 @@ body {
 
 .card {
   display: inline-block;
+  margin: 5px;
 }
 
 .card-back,
@@ -204,15 +215,39 @@ body {
 .card-category {
   position: relative;
   top: 50%;
-  margin-top: -18px;
+  width: 110%;
+  height: 30px;
+  margin-top: -15px;
+  margin-left: -2%;
   transform: rotate(90deg);
   font-size: 150%;
+}
+
+
+.bitcoin-improvement .card-category {
+  margin-left: 1%;
+}
+
+
+.card-category span {
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.card-front .price{
+  opacity: 0.5;
+  font-size:50%;
+  display: inline-block;
+  position: absolute;
+  padding-top:10px;
+    width:100%;
+    left:0
 }
 
 .card-back .title {
   text-align: center;
   font-weight: 800;
-  padding: 20px;
+  padding: 20px 20px 10px;
 }
 
 .card-back .card-id {
@@ -223,13 +258,91 @@ body {
   font-size: 40%;
 }
 
+
+
+.card-back .card-illus {
+  width: 51%;
+  margin: auto;
+}
+
+.card-back .card-illus img{
+  width: 100%;
+}
+
+
 .card-back .description {
-  top: 100px;
-  position: absolute;
-  padding: 20px;
+
+  padding: 5px 20px;
   font-size: 70%;
   line-height: 1.5em;
+  /*text-align:center;*/
 }
+
+
+
+
+
+
+.card-back .description .influence {
+  padding-top: 10px;
+  margin-top:10px;
+  border-top: 1px solid #eaeaea;
+  display: block;
+  font-size: 70%;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+
+.influence-effect {
+    display: inline-block;
+}
+
+
+
+.circle{
+    display: inline-block;
+    border-radius: 130px;
+    margin: 2px 0;
+    width:10px;
+    height:10px;
+    vertical-align: bottom;
+}
+
+
+.influence-theme-text{
+  display: inline-block;
+}
+
+
+
+
+
+.influence-effect.negative {
+    color: #c72e2e;
+}
+
+.influence-effect.neutral {
+    color: #d8d8d8;
+}
+
+
+.influence-effect.positive {
+    color: #4e9650;
+}
+
+.influence-effect.negative_back {
+    background-color: #c72e2e;
+}
+
+.influence-effect.neutral_back {
+    background-color: #d8d8d8;
+}
+
+.influence-effect.positive_back {
+    background-color: #4e9650;
+}
+
 
 
 
@@ -254,3 +367,11 @@ body {
 .button:hover {
   background: #eaeaea;
 }
+
+
+
+
+
+
+
+
