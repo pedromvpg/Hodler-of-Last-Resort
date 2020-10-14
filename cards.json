@@ -19,7 +19,7 @@
    },
    {
      "title": "Keep it Simple, Stupid",
-     "description": "Overlly complicated private key habbits lead you to loose part of your bitcoin.",
+     "description": "Overlly complicated private key habbits lead you to lose part of your bitcoin.",
      "influence": {"themeEffected": "Network Attacks", "effect": "negative", "description": "Make any Network Attacks negative",},
      "theme": "Heuristics",
      "price": 2500000,
